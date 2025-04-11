@@ -68,12 +68,20 @@ const PayUConfig = () => {
 
     // Add additional required fields
     const additionalFields = {
-      paymentMethod: "CREDIT_CARD",
+      paymentMethod: "VISA",
       paymentCountry: "CO",
       deviceSessionId: "vghs6tvkcle931686k1900o6e1",
       ipAddress: "127.0.0.1",
       cookie: "pt1t38347bs6jc9ruv2ecpv7o2",
       userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+      language: "es",
+      shippingAddress: "Calle 123",
+      shippingCity: "Bogota",
+      shippingCountry: "CO",
+      payerFullName: formData.buyerFullName,
+      payerEmail: formData.buyerEmail,
+      payerDniNumber: "123456789",
+      payerPhone: "3112222222",
     };
 
     Object.entries(additionalFields).forEach(([key, value]) => {

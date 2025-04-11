@@ -5,7 +5,7 @@ export const initialFormData: FormData = {
   merchantId: AUTH.merchantId,
   accountId: AUTH.accountId,
   description: "",
-  referenceCode: "TEST001",
+  referenceCode: "TEST" + Date.now(),
   amount: "",
   tax: "0",
   taxReturnBase: "0",
