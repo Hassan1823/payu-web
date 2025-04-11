@@ -78,10 +78,6 @@ const PayUConfig = () => {
       shippingAddress: "Calle 123",
       shippingCity: "Bogota",
       shippingCountry: "CO",
-      payerFullName: formData.buyerFullName,
-      payerEmail: formData.buyerEmail,
-      payerDniNumber: "123456789",
-      payerPhone: "3112222222",
     };
 
     Object.entries(additionalFields).forEach(([key, value]) => {
