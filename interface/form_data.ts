@@ -1,0 +1,16 @@
+export interface FormData {
+  merchantId: string;
+  accountId: string;
+  description: string;
+  referenceCode: string;
+  amount: string;
+  tax: string;
+  taxReturnBase: string;
+  currency: string;
+  signature: string;
+  test: string;
+  buyerEmail: string;
+  buyerFullName: string;
+  responseUrl: string;
+  confirmationUrl: string;
+}
